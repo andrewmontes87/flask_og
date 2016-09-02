@@ -1,7 +1,7 @@
 body { font-family: sans-serif; }
 
 #chart-holder {
-  width: 100%;
+  width: 1200px;
   height: 750px;
   position: relative;
   background-color: #cfcfcf;
@@ -18,9 +18,12 @@ body { font-family: sans-serif; }
   position: absolute;
   background: azure;
   top: 0px;
-  width: 960px;
-  height: 480px;
-  border: 1px solid black;
+  width: 700px;
+  height: 350px;
+  border-top: 2px dashed gray;
+  border-left: 2px dashed gray;
+
+  /*border: 1px solid black;*/
 
 }
 
@@ -67,23 +70,23 @@ body { font-family: sans-serif; }
   background: #222;
   border: 2px solid #fff;
   border-color: goldenrod;
-  padding:10px;
+  padding: 0px 20px;
   left: -999px;
-}
-#map-tooltip {
   text-align: center;
-  padding: 0px;
   margin: 0px;
 }
 
 
 #bar {
   position: absolute;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   background: azure;
-  right: 0px;
-  width: 600px;
-  height: 700px;
+  left: 700px;
+  width: 500px;
+  height: 600px;
+  border-left: 2px dashed gray;
+  border-top: 2px dashed gray;
+  border-right: 2px dashed gray;
 }
 
 .bar.active { fill:goldenrod; }

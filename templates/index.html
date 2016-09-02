@@ -6,9 +6,19 @@
 <link rel="stylesheet" href="static/css/style.css" type="" media="screen" />
 </head>
 <body>
-  <h1>Hello world!</h1>
+  <h1>The largest oil and gas companies by revenue</h1>
   <div id='chart'>
     <div id="app">
+      <div id="nobel-menu">
+        <div id="co-type-select">
+          Company Type
+          <select>
+            <option value="All">All</option>
+            <option value="Public">Public</option>
+            <option value="Private/State-owned">Private/State-owned</option>
+          </select>
+        </div>
+      </div>
       <div id='chart-holder' class='_dev'>
         <div id="map">
           <div id="map-tooltip">
@@ -32,6 +42,7 @@
   </script>
 
   <script src="static/js/og_co_core.js" ></script>
+  <script src="static/js/og_co_menu.js"></script>
   <script src="static/js/og_co_bar.js"></script>
   <script src="static/js/og_co_map.js"></script>
   <script src="static/js/og_co_main.js"></script>

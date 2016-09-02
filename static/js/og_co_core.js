@@ -34,6 +34,10 @@
 		ogCoApp.nameDim = ogCoApp.ogCoFilter.dimension(function(o){
 			return o.name;
 		});
+		ogCoApp.coTypeDim = ogCoApp.ogCoFilter.dimension(function(o){
+			console.log(o.isin);
+			return o.isin ? 'Public' : 'Private/State-owned';
+		});
 	}
 
 

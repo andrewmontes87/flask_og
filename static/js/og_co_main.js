@@ -14,7 +14,8 @@
           return console.warn(error);
       }
       ogCoApp.makeFilterAndDimensions(ogCoData);
-    	ogCoApp.initMap(worldMap, countryNames)
+      ogCoApp.initMap(worldMap, countryNames);
+    	ogCoApp.initMenu();
     	ogCoApp.onDataChange();
     };
 

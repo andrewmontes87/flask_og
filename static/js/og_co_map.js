@@ -9,8 +9,8 @@
   var svg = mapContainer.append('svg');
 
   var projection = d3.geo.equirectangular()
-    .scale(100 * (height/350))
-    .center([0,-10])
+    .scale(100 * (height/275))
+    .center([10,0])
     .translate([width/2, height/2])
     .precision(0.1);
 
