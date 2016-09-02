@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- <title>{{config.APP_TITLE}}</title> -->
+<link rel="stylesheet" href="static/css/style.css" type="" media="screen" />
+</head>
+<body>
+  <h1>Hello world!</h1>
+  <div id='chart'>
+    <div id="app">
+      <div id='chart-holder' class='_dev'>
+        <div id="map">
+          <div id="map-tooltip">
+            <h2></h2>
+            <p id="tooltip-stat"></p>
+            <p id="tooltip-loc"></p>
+            <p id="tooltip-isin"></p>
+            <p id="tooltip-inception"></p>
+          </div>
+        </div>
+        <div id="bar"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.20/topojson.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+  <script src="static/lib/crossfilter.min.js"></script>
+  <script>
+    // $EVE_API = {{ config.EVE_API|tojson|safe }};
+  </script>
+
+  <script src="static/js/og_co_core.js" ></script>
+  <script src="static/js/og_co_bar.js"></script>
+  <script src="static/js/og_co_map.js"></script>
+  <script src="static/js/og_co_main.js"></script>
+</body>
+</html>

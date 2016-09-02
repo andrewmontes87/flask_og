@@ -1,0 +1,632 @@
+[  
+   {  
+      "bio_img":"full\/811ee4352837f20673bd0dd3c937fe603a7d1769.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/e\/e8\/Shell_logo.svg\/120px-Shell_logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Royal_Dutch_Shell",
+      "name":"Royal Dutch Shell",
+      "revenue":265.0,
+      "coordinate_location":"51.5072222222, -0.1275",
+      "country":"United Kingdom",
+      "inception":"2005",
+      "instance_of":"business enterprise",
+      "isin":"GB00B03MLX29"
+   },
+   {  
+      "bio_img":"full\/6755404999d066a464c355ae6295e90251182ffc.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/d\/d2\/BP_Helios_logo.svg\/150px-BP_Helios_logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/BP",
+      "name":"BP",
+      "revenue":222.8,
+      "coordinate_location":"51.5072222222, -0.1275",
+      "country":"United Kingdom",
+      "inception":"1908",
+      "instance_of":"business enterprise",
+      "isin":"GB0007980591"
+   },
+   {  
+      "bio_img":"full\/0e2fc7beabc3f066a7dd582481619bc52695a1ce.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/9\/9d\/JX_Holdings_logo.jpg\/150px-JX_Holdings_logo.jpg"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/JX_Holdings",
+      "name":"JX Holdings",
+      "revenue":90.67,
+      "coordinate_location":"35.68425, 139.770221944",
+      "country":"Japan",
+      "inception":"1 April 2010",
+      "instance_of":"public company",
+      "isin":"JP3386450005"
+   },
+   {  
+      "bio_img":"full\/7c481ed31c412b3dd2e4a2a43be136af750e15fc.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/2\/2b\/Petrochina_logo.svg\/150px-Petrochina_logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/PetroChina",
+      "name":"PetroChina",
+      "revenue":367.982,
+      "coordinate_location":"39.9269444444, 116.409722222",
+      "country":"People's Republic of China",
+      "inception":"1999",
+      "instance_of":"public company",
+      "isin":"US71646E1001"
+   },
+   {  
+      "bio_img":"full\/eee172a67f96c7202b494f5583090c361973fb63.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/4\/41\/Sinopec.svg\/100px-Sinopec.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Sinopec",
+      "name":"Sinopec",
+      "revenue":455.499,
+      "coordinate_location":"39.905, 116.391388889",
+      "country":"People's Republic of China",
+      "inception":"2000",
+      "instance_of":"business enterprise",
+      "isin":"CN0005789556"
+   },
+   {  
+      "bio_img":"full\/4d90be01f3e9360c7058db2f88bc9359bcb0b68a.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/b\/b8\/Eni_SpA.svg\/130px-Eni_SpA.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Eni",
+      "name":"Eni",
+      "revenue":131.82,
+      "coordinate_location":"41.8930555556, 12.4827777778",
+      "country":"Italy",
+      "inception":"10 February 1953",
+      "instance_of":"business enterprise",
+      "isin":"IT0003132476"
+   },
+   {  
+      "bio_img":"full\/d6356b3150e80dec17101887a90b55f11b168c9f.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/39\/Rosneft_logo.svg\/220px-Rosneft_logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Rosneft",
+      "name":"Rosneft",
+      "revenue":91.72,
+      "coordinate_location":"55.7558333333, 37.6177777778",
+      "country":"Russia",
+      "inception":"1995",
+      "instance_of":"government-owned corporation",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/82c94079146bda4350fffbe72d0053ec09fd1ee2.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/8\/8d\/Kuwait_Petroleum_Corporation_Logo.svg\/220px-Kuwait_Petroleum_Corporation_Logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Kuwait_Petroleum_Corporation",
+      "name":"Kuwait Petroleum Corporation",
+      "revenue":251.94,
+      "coordinate_location":"29.375, 47.98",
+      "country":"Kuwait",
+      "inception":"1980",
+      "instance_of":"government agency",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/f1570493d31ce24a8081c9ac4ef8dcad1a74c657.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/18\/Exxon_Mobil_Logo.svg\/220px-Exxon_Mobil_Logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Exxon_Mobil",
+      "name":"Exxon Mobil",
+      "revenue":268.9,
+      "coordinate_location":"32.8116666667, -96.9508333333",
+      "country":"United States of America",
+      "inception":"30 November 1999",
+      "instance_of":"public company",
+      "isin":"US30231G1022"
+   },
+   {  
+      "bio_img":"full\/b2c9fcb8be7cf1602c4dd63daf2e96842e19f62a.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/7e\/AramcoCoreArea.jpg\/250px-AramcoCoreArea.jpg"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Saudi_Aramco",
+      "name":"Saudi Aramco",
+      "revenue":478.0,
+      "coordinate_location":"26.2666666667, 50.15",
+      "country":"Saudi Arabia",
+      "inception":"1933",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/b47ad457bbc803453a031fc336a2bb6af49995d7.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/0\/00\/CNOOC_Logo.svg\/150px-CNOOC_Logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/China_National_Offshore_Oil",
+      "name":"China National Offshore Oil",
+      "revenue":98.53,
+      "coordinate_location":"39.905, 116.391388889",
+      "country":"People's Republic of China",
+      "inception":"1982",
+      "instance_of":"government-owned corporation",
+      "isin":"HK0883013259"
+   },
+   {  
+      "bio_img":"full\/4db1722a98bfefc472ad658ad40e10be760a661f.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/5\/52\/Total.svg\/120px-Total.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Total_SA",
+      "name":"Total SA",
+      "revenue":212.0,
+      "coordinate_location":"48.8972222222, 2.25222222222",
+      "country":"France",
+      "inception":"28 March 1924",
+      "instance_of":"multinational corporation",
+      "isin":"FR0000120271"
+   },
+   {  
+      "bio_img":"full\/81ac9ad37cb495d0151644ee5798c110c232e3cc.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/b\/b9\/Lukoil_logo.svg\/220px-Lukoil_logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Lukoil",
+      "name":"Lukoil",
+      "revenue":144.17,
+      "coordinate_location":"55.7558333333, 37.6177777778",
+      "country":"Russia",
+      "inception":"1991",
+      "instance_of":"open joint-stock company",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/6acf06c517659f472eb40cea84c1eb631eb5bb11.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/b\/bd\/Marathon_Oil_logo.svg\/200px-Marathon_Oil_logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Marathon_Petroleum",
+      "name":"Marathon Petroleum",
+      "revenue":97.81,
+      "coordinate_location":"41.0427777778, -83.6422222222",
+      "country":"United States of America",
+      "inception":"2005",
+      "instance_of":"business enterprise",
+      "isin":"US56585A1025"
+   },
+   {  
+      "bio_img":"full\/1b08562bca82ee0935a2556a0e1d4f82f0e1ac5f.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/a\/a8\/PTT_Public_Company_logo.svg\/130px-PTT_Public_Company_logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/PTT_Public_Company_Limited",
+      "name":"PTT",
+      "revenue":93.55,
+      "coordinate_location":"13.75, 100.516666667",
+      "country":"Thailand",
+      "inception":"29 December 1977",
+      "instance_of":"business enterprise",
+      "isin":"TH0646010R18"
+   },
+   {  
+      "bio_img":"full\/ff18f6bf18dc536f8b5cce0e289595d116b81ace.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/0\/07\/SOCAR_logo.jpg\/220px-SOCAR_logo.jpg"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/SOCAR",
+      "name":"SOCAR",
+      "revenue":39.7,
+      "coordinate_location":"40.3666555556, 49.8351833333",
+      "country":"Azerbaijan",
+      "inception":"1992",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/5530e04f21113720229b687e7ddeae51e519cbfe.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/a\/ae\/Idemitsu_Kosan_Japanese_Logo.png\/100px-Idemitsu_Kosan_Japanese_Logo.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Idemitsu_Kosan",
+      "name":"Idemitsu Kosan",
+      "revenue":38.58,
+      "coordinate_location":"35.6833333333, 139.75",
+      "country":"Japan",
+      "inception":"1911",
+      "instance_of":"business enterprise",
+      "isin":"JP3142500002"
+   },
+   {  
+      "bio_img":"full\/70b4eb8a6af76a065aea298f319ebeacaa7f5915.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/b\/bd\/Hellenic_Petroleum.svg\/200px-Hellenic_Petroleum.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Hellenic_Petroleum",
+      "name":"Hellenic Petroleum",
+      "revenue":31.28,
+      "coordinate_location":"38.0, 23.7166666667",
+      "country":"Greece",
+      "inception":"1958",
+      "instance_of":"business enterprise",
+      "isin":"GRS298343005"
+   },
+   {  
+      "bio_img":"full\/a67dc22e0e82fe9272a495805ace3999971fc0db.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/8\/88\/Suncor_Energy_logo.svg\/200px-Suncor_Energy_logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Suncor_Energy",
+      "name":"Suncor Energy",
+      "revenue":34.66,
+      "coordinate_location":"51.0544388889, -114.066938889",
+      "country":"Canada",
+      "inception":"1917",
+      "instance_of":"business enterprise",
+      "isin":"CA8672241079"
+   },
+   {  
+      "bio_img":"full\/a423e39b5ea543d060e503ee0a2dd3238fb99344.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/45\/Cepsa.jpg\/250px-Cepsa.jpg"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/CEPSA",
+      "name":"CEPSA",
+      "revenue":26.9,
+      "coordinate_location":"40.4188888889, -3.69194444444",
+      "country":"Spain",
+      "inception":"1929",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/f0c6bddc76f23df31d9aa6ed4a8e44bd3341665f.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/8\/8c\/Hindustan_Petroleum_Logo.svg\/150px-Hindustan_Petroleum_Logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Hindustan_Petroleum",
+      "name":"Hindustan Petroleum",
+      "revenue":37.85,
+      "coordinate_location":"18.9666666667, 72.8333333333",
+      "country":"India",
+      "inception":"1974",
+      "instance_of":"business enterprise",
+      "isin":"INE094A01015"
+   },
+   {  
+      "bio_img":"full\/d19aeec98a88d1ffc2cd38fe1bb6f9cedb0e002a.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/0\/05\/Ecopetrol_logo.svg\/200px-Ecopetrol_logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Ecopetrol",
+      "name":"Ecopetrol",
+      "revenue":26.99,
+      "coordinate_location":"4.59888888889, -74.0808333333",
+      "country":"Colombia",
+      "inception":"25 August 1951",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/dc5315071166943689737b8466e6e35a80f93b27.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/a\/a8\/Motor_Oil_Hellas_logo.svg\/230px-Motor_Oil_Hellas_logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Motor_Oil_Hellas",
+      "name":"Motor Oil Hellas",
+      "revenue":28.98,
+      "coordinate_location":"38.05, 23.8",
+      "country":"Greece",
+      "inception":"1970",
+      "instance_of":"business enterprise",
+      "isin":"GRS426003000"
+   },
+   {  
+      "bio_img":"full\/8c78e2f24a162642c63c79ee6b86aaa30346f537.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/a\/a0\/Bharat_Petroleum_Logo.svg\/200px-Bharat_Petroleum_Logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Bharat_Petroleum",
+      "name":"Bharat Petroleum",
+      "revenue":43.46,
+      "coordinate_location":"18.9666666667, 72.8333333333",
+      "country":"India",
+      "inception":"1976",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/ef701e9407ea9297bec914c41e26c279b2811f69.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/8\/83\/OMV.svg\/160px-OMV.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/OMV_Group",
+      "name":"OMV Group",
+      "revenue":43.09,
+      "coordinate_location":"48.20833, 16.3730638889",
+      "country":"Austria",
+      "inception":"1956",
+      "instance_of":"business enterprise",
+      "isin":"AT0000743059"
+   },
+   {  
+      "bio_img":"full\/369200c60f16e163b786c7d7be752467255e0216.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/b0\/Increase2.svg\/11px-Increase2.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/GS_Caltex",
+      "name":"GS Caltex",
+      "revenue":40.26,
+      "coordinate_location":"37.5833333333, 127.0",
+      "country":"South Korea",
+      "inception":"1966",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/b34b5e0da196c29df006d8259940e57bc419f962.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/b\/b2\/Centrica_logo.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Centrica",
+      "name":"Centrica",
+      "revenue":45.29,
+      "coordinate_location":"51.4833333333, -0.6",
+      "country":"United Kingdom",
+      "inception":"1987",
+      "instance_of":"business enterprise",
+      "isin":"GB00B033F229"
+   },
+   {  
+      "bio_img":"full\/ee0a55020f5c50422998a34f7a78031c08925c03.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/5\/5e\/Repsol_2012_logo.png\/160px-Repsol_2012_logo.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Repsol",
+      "name":"Repsol",
+      "revenue":47.29,
+      "coordinate_location":"40.4188888889, -3.69194444444",
+      "country":"Spain",
+      "inception":"1987",
+      "instance_of":"business enterprise",
+      "isin":"ES0173516115"
+   },
+   {  
+      "bio_img":"full\/1aaf059cf2416717291edeb876b2de32d4a872b5.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/e\/e6\/Pertamina_Logo.svg\/250px-Pertamina_Logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Pertamina",
+      "name":"Pertamina",
+      "revenue":70.65,
+      "coordinate_location":"-6.16666666667, 106.8",
+      "country":"Indonesia",
+      "inception":"1968",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/732f797da656659d520d5b5e45e0e349c6e5b97d.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/e\/ef\/Sonatrach.svg\/150px-Sonatrach.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Sonatrach",
+      "name":"Sonatrach",
+      "revenue":76.1,
+      "coordinate_location":"36.7763888889, 3.05861111111",
+      "country":"Algeria",
+      "inception":"December 1963",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/9b5672ce8631d6bce06b00a1c33af522658f7f25.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/1\/12\/Enterprise_products_logo.PNG"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Enterprise_Products",
+      "name":"Enterprise Products",
+      "revenue":47.95,
+      "coordinate_location":"29.7627777778, -95.3830555556",
+      "country":"United States of America",
+      "inception":"1968",
+      "instance_of":"business enterprise",
+      "isin":"US2937921078"
+   },
+   {  
+      "bio_img":"full\/765995af03a75eef88fb9d8eaf055552e2b28590.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/0\/0c\/ConocoPhillips_Logo.svg\/225px-ConocoPhillips_Logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Conoco_Phillips",
+      "name":"Conoco Phillips",
+      "revenue":55.52,
+      "coordinate_location":"29.7627777778, -95.3830555556",
+      "country":"United States of America",
+      "inception":"30 August 2002",
+      "instance_of":"business enterprise",
+      "isin":"US20825C1045"
+   },
+   {  
+      "bio_img":"full\/6836bf0eb2cfae59c998feb048d2565b5683aaa0.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/99\/Reliance_Industries_Logo.svg\/200px-Reliance_Industries_Logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Reliance_Industries",
+      "name":"Reliance Industries",
+      "revenue":73.1,
+      "coordinate_location":"18.9666666667, 72.8333333333",
+      "country":"India",
+      "inception":"1966",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/b7cc9e058ab89773e282de38008549767b3de8bf.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/6\/61\/Statoil_2009_logo.svg\/150px-Statoil_2009_logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Statoil",
+      "name":"Statoil",
+      "revenue":82.48,
+      "coordinate_location":"58.97, 5.71",
+      "country":"Norway",
+      "inception":"14 June 1972",
+      "instance_of":"business enterprise",
+      "isin":"NO0010096985"
+   },
+   {  
+      "bio_img":"full\/16ab4e037d304c97edaebf3385596e72ed0ad67b.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a3\/Indian_Oil_Logo.svg\/150px-Indian_Oil_Logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Indian_Oil_Corporation",
+      "name":"Indian Oil Corporation",
+      "revenue":81.55,
+      "coordinate_location":"28.7, 77.2",
+      "country":"India",
+      "inception":"1964",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/751675afb476792fbcab4ee5b74336c8096b9522.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/c\/c9\/Petronas_logo.png\/220px-Petronas_logo.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Petronas",
+      "name":"Petronas",
+      "revenue":100.74,
+      "coordinate_location":"3.15778055556, 101.711669444",
+      "country":"Malaysia",
+      "inception":"14 August 1974",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/ab943f907e07dcdb348c452a43a0336bc2869d12.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/1\/11\/Gazprom-Logo.svg\/220px-Gazprom-Logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Gazprom",
+      "name":"Gazprom",
+      "revenue":106.3,
+      "coordinate_location":"55.7558333333, 37.6177777778",
+      "country":"Russia",
+      "inception":"1989",
+      "instance_of":"government-owned corporation",
+      "isin":"RU0007661625"
+   },
+   {  
+      "bio_img":"full\/614460040395d074021650f18f168bb5c3662f56.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/d\/d0\/Engie_fra_logo.png\/200px-Engie_fra_logo.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Engie",
+      "name":"Engie",
+      "revenue":89.64,
+      "coordinate_location":"48.8565777778, 2.35182777778",
+      "country":"France",
+      "inception":"2008",
+      "instance_of":"Energy company",
+      "isin":"FR0010208488"
+   },
+   {  
+      "bio_img":"full\/7d2ac59819d3373860750ffbf51ac3cf587db98b.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/7\/79\/National_Iranian_Oil_Company_%28emblem%29.svg\/180px-National_Iranian_Oil_Company_%28emblem%29.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/National_Iranian_Oil",
+      "name":"National Iranian Oil",
+      "revenue":110.0,
+      "coordinate_location":"35.7, 51.4166666667",
+      "country":"Iran",
+      "inception":"30 April 1951",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/f103846f2bb72ffcf217bac00f2c2ef25286c0d6.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/5\/55\/PDV_S.A._logo.svg\/182px-PDV_S.A._logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/PDVSA",
+      "name":"PDVSA",
+      "revenue":128.44,
+      "coordinate_location":"10.5, -66.9333333333",
+      "country":"Venezuela",
+      "inception":"1975",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/77885cba53f6fb4700eab7d3aa8d5a5551852c4a.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/a\/ac\/Pemex_logo.svg\/220px-Pemex_logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Pemex",
+      "name":"Pemex",
+      "revenue":117.5,
+      "coordinate_location":"19.4194444444, -99.1455555556",
+      "country":"Mexico",
+      "inception":"1938",
+      "instance_of":"business enterprise",
+      "isin":null
+   },
+   {  
+      "bio_img":"full\/dedfbca01e30d2e743d3cb00c5e5a0620aa25ed8.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/86\/Chevron_Logo.svg\/125px-Chevron_Logo.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Chevron_Corporation",
+      "name":"Chevron Corporation",
+      "revenue":129.9,
+      "coordinate_location":"37.7666666667, -122.433333333",
+      "country":"United States of America",
+      "inception":"1879",
+      "instance_of":"business enterprise",
+      "isin":"US1667641005"
+   },
+   {  
+      "bio_img":"full\/7ee4011eab9b9f62f73ecbaa3548bfc7432dcd42.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/81\/Petrobras_horizontal_logo_%28international%29.svg\/220px-Petrobras_horizontal_logo_%28international%29.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Petrobras",
+      "name":"Petrobras",
+      "revenue":130.0,
+      "coordinate_location":"-22.9083333333, -43.1963888889",
+      "country":"Brazil",
+      "inception":"3 October 1953",
+      "instance_of":"business enterprise",
+      "isin":"BRPETRACNPR6"
+   },
+   {  
+      "bio_img":"full\/b3586ccdb4383076603628b02119a5ad34b8da07.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/2\/2f\/VALERO_logo.png\/300px-VALERO_logo.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/Valero_Energy",
+      "name":"Valero Energy",
+      "revenue":130.84,
+      "coordinate_location":"29.4286111111, -98.4933333333",
+      "country":"United States of America",
+      "inception":"1980",
+      "instance_of":"business enterprise",
+      "isin":"US91913Y1001"
+   },
+   {  
+      "bio_img":"full\/a0b5dad695f239fd30cab36f26e41e6cfacb7e12.jpg",
+      "image_urls":[  
+         "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/7\/70\/CNPC.svg\/250px-CNPC.svg.png"
+      ],
+      "link":"http:\/\/en.wikipedia.org\/wiki\/China_National_Petroleum_Corporation",
+      "name":"China National Petroleum Corporation",
+      "revenue":428.62,
+      "coordinate_location":"39.9269444444, 116.409722222",
+      "country":"People's Republic of China",
+      "inception":"1988",
+      "instance_of":"government-owned corporation",
+      "isin":null
+   }
+]
