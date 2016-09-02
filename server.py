@@ -9,6 +9,4 @@ def index():
     return send_from_directory('./templates', 'index.html')
 
 if __name__ == "__main__":
-    print "HELLO WORLD"
-    print ENV
     app.run(port=8000,debug=True)

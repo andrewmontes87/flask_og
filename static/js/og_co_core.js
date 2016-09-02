@@ -10,7 +10,7 @@
 	ogCoApp.MIN_CENTROUD_RADIUS = 2;
 	ogCoApp.colors = {palegold: '#E6BE8A'}
 
-	var $EVE_API = 'http://localhost:5000/api/';
+	var $EVE_API = 'https://oilgasapi.herokuapp.com/api/';
 
 	ogCoApp.getDataFromAPI = function(resource, callback){
 		d3.json($EVE_API + resource, function(error, data){
