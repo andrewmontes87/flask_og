@@ -2,3 +2,4 @@ pymongo==3.3.0
 Flask==0.10.1
 Flask-PyMongo==0.4.1
 Eve==0.6.4
+gunicorn==19.6.0
