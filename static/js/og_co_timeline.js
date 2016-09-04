@@ -52,7 +52,6 @@
     years.enter().append("g")
       .classed("year", true)
       .attr("name", function(d){return d.key})
-      // .transition().duration(2000)
       .attr("transform", function(year){
         return "translate("+xScale(+year.key)+",0)";
       });
