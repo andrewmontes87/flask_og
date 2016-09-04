@@ -23,8 +23,6 @@ body { font-family: sans-serif; }
   border-top: 2px dashed gray;
   border-left: 2px dashed gray;
 
-  /*border: 1px solid black;*/
-
 }
 
 .graticule {
@@ -79,12 +77,12 @@ body { font-family: sans-serif; }
 
 #bar {
   position: absolute;
-  /*border: 1px solid black;*/
   background: azure;
   left: 700px;
   width: 500px;
   height: 600px;
   border-left: 2px dashed gray;
+  border-bottom: 2px dashed gray;
   border-top: 2px dashed gray;
   border-right: 2px dashed gray;
 }
@@ -106,3 +104,18 @@ body { font-family: sans-serif; }
 
 .x.axis path { display: none; }
 #y-axis-label { font-size: 11px }
+
+
+
+
+#timeline{
+  background: azure;
+  position:absolute;
+  border-top: 2px dashed gray;
+  border-left: 2px dashed gray;
+  border-bottom: 2px dashed gray;
+  top:350px;
+  left:0px;
+  height:250px;
+  width:700px;
+}

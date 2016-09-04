@@ -9,9 +9,9 @@
   <h1>The largest oil and gas companies by revenue</h1>
   <div id='chart'>
     <div id="app">
-      <div id="nobel-menu">
-        <div id="co-type-select">
-          Company Type
+      <div id="menu">
+        <div id="type-select">
+          Type
           <select>
             <option value="All">All</option>
             <option value="Public">Public</option>
@@ -29,6 +29,7 @@
             <p id="tooltip-inception"></p>
           </div>
         </div>
+        <div id="timeline"></div>
         <div id="bar"></div>
       </div>
     </div>
@@ -40,11 +41,11 @@
   <script>
     // $EVE_API = {{ config.EVE_API|tojson|safe }};
   </script>
-
   <script src="static/js/og_co_core.js" ></script>
   <script src="static/js/og_co_menu.js"></script>
   <script src="static/js/og_co_bar.js"></script>
   <script src="static/js/og_co_map.js"></script>
+  <script src="static/js/og_co_timeline.js"></script>
   <script src="static/js/og_co_main.js"></script>
 </body>
 </html>
