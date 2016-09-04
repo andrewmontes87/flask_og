@@ -61,7 +61,8 @@
     var data = names.map(function(c){
       return {
         key: c.name,
-        value: c.revenue
+        value: c.revenue,
+        _id: c._id
       };  
     })
     .sort(function(a,b){ return b.value - a.value });

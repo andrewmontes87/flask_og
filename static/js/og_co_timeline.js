@@ -38,6 +38,19 @@
     .style("text-anchor", "end")
     .attr("dx", "1em");
 
+  var myLabel = chartHolder.select("svg").append("g")
+    .attr("transform", "translate(10,10)")
+    .attr("class", "labels")
+    .selectAll("label").data(['Inception decade'])
+    .enter().append("g")
+    .attr("tranform", function(d,i){
+      return "translate(0,"+ i*10 +")";
+    });
+
+  myLabel.append("text")
+    .text('Decade of inception')
+    .attr("dy", "2em")
+    .attr("x", 20)
 
 
 

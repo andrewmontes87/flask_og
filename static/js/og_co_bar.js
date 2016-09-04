@@ -91,7 +91,7 @@
             .attr("class", "bar")
             .attr("y", yPaddingTop)
             .on('click', function(d){
-                console.log(d)
+                ogCoApp.displayPopup(d);
             });
         
         bars
