@@ -108,6 +108,8 @@
 
         bars.exit().remove();
 
+
+
     };
         
 }(window.ogCoApp = window.ogCoApp || {}));

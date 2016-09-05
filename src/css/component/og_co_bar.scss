@@ -1,0 +1,30 @@
+
+#bar {
+  position: absolute;
+  /*background: azure;*/
+  left: 700px;
+  width: 500px;
+  height: 600px;
+  /*border-left: 2px dashed gray;*/
+  /*border-bottom: 2px dashed gray;*/
+  /*border-top: 2px dashed gray;*/
+  /*border-right: 2px dashed gray;*/
+}
+
+.bar.active { fill:goldenrod; }
+.bar { fill: #434343; }
+.bar:hover { fill: black; }
+
+.axis { font: 10px sans-serif; }
+
+.axis-label{ }
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path { display: none; }
+#y-axis-label { font-size: 11px }

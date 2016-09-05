@@ -2,8 +2,9 @@
 (function(ogCoApp){
   'use strict';
 
-  d3.select('#type-select select')
-    .on('change', function(d) {
+  // using jquery to select and apply change function
+  // d3 selection doesn't work for some reason
+  $('#type-select').on('change', 'select', function(d){ 
       var coType = d3.select(this).property('value');
       if(coType === 'All'){
         // Reset the filter to all genders
@@ -24,5 +25,5 @@
     });
   };
 
-}(window.ogCoApp = window.ogCoApp || {}))
+}(window.ogCoApp = window.ogCoApp || {}));
 

@@ -155,13 +155,8 @@
         
         var mouseCoords = d3.mouse(this);
         var cData = centroid.datum();
-        // var prize_string = (cData.number === 1)?' prize in ': ' prizes in ';
-        tooltip.select('h2').text(cData.name);
-        tooltip.select('p#tooltip-stat').text('$'+cData.revenue+'B USD revenue'); 
-        tooltip.select('p#tooltip-loc').text(cData.headquarters_location); 
-        tooltip.select('p#tooltip-isin').text(cData.isin); 
-        tooltip.select('p#tooltip-inception').text(cData.inception); 
-        tooltip.style('border-color', 'goldenrod');
+        tooltip.select('h5').text(cData.name);
+        tooltip.select('p#tooltip-stat').text('$'+cData.revenue+' BILLION USD revenue'); 
         var countryClass = cData.name.replace(/ /g, '-');
         
         var w = parseInt(tooltip.style('width')),
@@ -175,6 +170,9 @@
       .on('mouseout', function(d) {
         tooltip.style('left', '-9999px');
         d3.select(this).classed('active', false);
+      })
+      .on('click', function(d){
+        ogCoApp.displayPopup(d);
       });
 
 

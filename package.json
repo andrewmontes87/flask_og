@@ -1,0 +1,36 @@
+{
+  "name": "flask_og",
+  "version": "1.0.0",
+  "description": "Flask servers and d3 app for oil/gas company visualizer",
+  "dependencies": {
+    "materialize-css": "^0.97.7",
+    "jquery": "^3.1.0",
+    "d3": "^3.5.16",
+    "topojson": "^1.6.20",
+    "queue-async": "^1.0.7"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewmontes87/flask_og.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/andrewmontes87/flask_og/issues"
+  },
+  "homepage": "https://github.com/andrewmontes87/flask_og#readme"
+}

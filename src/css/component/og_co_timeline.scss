@@ -1,0 +1,27 @@
+#timeline{
+  /*background: azure;*/
+  position:absolute;
+  /*border-top: 2px dashed gray;*/
+  /*border-left: 2px dashed gray;*/
+  /*border-bottom: 2px dashed gray;*/
+  top:350px;
+  left:0px;
+  height:250px;
+  width:700px;
+}
+
+.inception { fill: #434343; }
+.inception:hover { fill: black; }
+
+#timeline-tooltip {
+  position: absolute;
+  pointer-events: none;
+  color: #eee;
+  font-size: 12px;
+  opacity: 0.8;
+  background: #222;
+  padding: 0px 20px;
+  left: -999px;
+  text-align: center;
+  margin: 0px;
+}

@@ -53,7 +53,7 @@
     .attr("x", 20)
 
 
-
+  var tooltip = d3.select('#timeline-tooltip');
   ogCoApp.updateTimeChart = function(data){
 
 
@@ -82,7 +82,43 @@
       .classed("inception", true)
       .attr("cy", height )
       .attr("cx", xScale.rangeBand()/2 )
-      .attr("r", xScale.rangeBand());
+      .attr("r", xScale.rangeBand())
+      .on('mouseenter', function(d, i) {
+        var inception = d3.select(this);
+        
+        var mouseCoords = d3.mouse(this);
+
+        var cData = inception.datum();
+
+        var w = parseInt(tooltip.style('width')),
+            h = parseInt(tooltip.style('height'));
+
+        console.log(d)
+        console.log(i)
+        console.log(mouseCoords[1])
+
+        var topOffset = (mouseCoords[1])-10
+        var leftOffset = xScale(d.inception.slice(d.inception.length-4,d.inception.length))
+
+        console.log(topOffset)
+        console.log(leftOffset)
+
+
+        tooltip.select('h6').text(cData.name);
+
+        tooltip.style('top', topOffset+'px');
+        tooltip.style('left', leftOffset+'px');
+
+        d3.select(this).classed('active', true);
+          
+      })
+      .on('mouseout', function(d) {
+        tooltip.style('left', '-9999px');
+        d3.select(this).classed('active', false);
+      })      
+      .on('click', function(d){
+        ogCoApp.displayPopup(d);
+      });
 
 
     inceptions
@@ -94,7 +130,8 @@
     inceptions.exit().remove();
 
 
+
   }
 
 
-}(window.ogCoApp = window.ogCoApp || {}))
+}(window.ogCoApp = window.ogCoApp || {}));

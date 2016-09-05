@@ -85,12 +85,18 @@
   }
 
   ogCoApp.onDataChange = function() {
+
+    $(document).ready(function() {
+      $('select').material_select();
+    });
+
     var locData = ogCoApp.getData();
     var countryData = ogCoApp.getCountryData();
     var revenueData = ogCoApp.getRevenueData();
     ogCoApp.updateBarChart(revenueData)
     ogCoApp.updateMap(countryData, locData);
     ogCoApp.updateTimeChart(nestDataByDecade(ogCoApp.getData()));
+
   };
 
-}(window.ogCoApp = window.ogCoApp || {}))
+}(window.ogCoApp = window.ogCoApp || {}));

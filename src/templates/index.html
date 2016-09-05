@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<!-- <title>{{config.APP_TITLE}}</title> -->
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="static/css/app.css" type="" media="screen" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body class="yellow lighten-2">
+  <div class="container" >
+    <h2>The largest oil and gas companies by revenue</h2>
+    <div id="ogapp-menu" class="row">
+      <label>Company Type: Public or Private/State-owned</label>
+      <div class="input-field col s12" id="type-select">
+        <select> <!-- class="browser-default" -->
+          <option value="All">All</option>
+          <option value="Public">Public</option>
+          <option value="Private/State-owned">Private/State-owned</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div id='chart-holder' class='_dev'>
+    <div id="map">
+      <div id="map-tooltip">
+        <h5></h5>
+        <p id="tooltip-stat"></p>
+        <p id="tooltip-loc"></p>
+      </div>
+    </div>
+    <div id="timeline">
+      <div id="timeline-tooltip">
+        <h6></h6>
+      </div>
+    </div>
+    <div id="bar"></div>
+  </div>
+  <footer class="page-footer yellow darken-2">
+    <div class="container">
+      <h4>Source code</h4>
+      <div class="row">
+        <div class="col l4 s12">
+          <h5>scrapy_og</h5>
+          <p>Scrapy spiders crawl Wikipedia to collect the raw data.</p>
+          <a class="waves-effect waves-light btn yellow lighten-2 grey-text text-darken-4" href="https://github.com/andrewmontes87/scrapy_og" target="_blank">github</a>
+        </div>
+        <div class="col l4 s12">
+          <h5>eve_og</h5>
+          <p>Pandas cleans the data and preps it for MongoDB, while Eve provides a RESTful API.</p>
+          <a class="waves-effect waves-light btn yellow lighten-2 grey-text text-darken-4" href="https://github.com/andrewmontes87/eve_og" target="_blank">github</a>
+        </div>
+        <div class="col l4 s12">
+          <h5>flask_og</h5>
+          <p>Flask serves a d3 + Materialize app that consumes the API and visualizes the data.</p>
+          <a class="waves-effect waves-light btn yellow lighten-2 grey-text text-darken-4" href="https://github.com/andrewmontes87/flask_og" target="_blank">github</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container grey-text text-darken-4">
+      © 2016 Andrew Montes
+      <a class="grey-text text-darken-4 right" href="http://www.andrewmontes.com" target="_blank">andrewmontes.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // $EVE_API = {{ config.EVE_API|tojson|safe }};
+  </script>
+  <script src="static/js/app.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body { 
+  color: #434343;
+ }
+
+#chart-holder {
+  width: 1200px;
+  height: 650px;
+  position: relative;
+  margin: auto;
+}
+
+#chart-holder svg {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+@import 'component/og_co_bar';
+@import 'component/og_co_map';
+@import 'component/og_co_menu';
+@import 'component/og_co_bio';
+@import 'component/og_co_timeline';
+
+
+
+
+
+@media only screen and (min-width: 993px) {
+  .container {
+
+  }
+}
+
+
+
+
+

@@ -6,4 +6,4 @@ Flask servers and d3 app for oil/gas company visualizer
 
 Start the web server
 
-`$ python server.py`
+`$ python run.py`
