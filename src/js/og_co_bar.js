@@ -56,6 +56,14 @@
         .append("text")
         .attr('id', 'x-axis-label')
 
+    svg
+    .append("g")
+    .append("text")
+    .text('Ranked by Revenue')
+    .style("font-size", "1.5em")
+    .style('fill', '#434343')
+    .attr("x", 20)
+    .attr("y", (height-20)+'px')
     
     ogCoApp.updateBarChart = function(data) {
         data = data.filter(function(d) {

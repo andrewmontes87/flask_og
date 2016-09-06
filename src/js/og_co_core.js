@@ -6,7 +6,7 @@
   ogCoApp.activeCountry = null;
   // ogCoApp.ALL_CATS = 'All Categories';
   ogCoApp.TRANS_DURATION = 2000;
-  ogCoApp.MAX_CENTROUD_RADIUS = 30;
+  ogCoApp.MAX_CENTROUD_RADIUS = 100;
   ogCoApp.MIN_CENTROUD_RADIUS = 2;
   ogCoApp.colors = {palegold: '#E6BE8A'}
 
@@ -93,10 +93,25 @@
     var locData = ogCoApp.getData();
     var countryData = ogCoApp.getCountryData();
     var revenueData = ogCoApp.getRevenueData();
-    ogCoApp.updateBarChart(revenueData)
     ogCoApp.updateMap(countryData, locData);
     ogCoApp.updateTimeChart(nestDataByDecade(ogCoApp.getData()));
+    ogCoApp.updateBarChart(revenueData)
+
+    // var options = [
+    //   {selector: '#timeline', offset: 300, callback: function(el) {
+    //     ogCoApp.updateTimeChart(nestDataByDecade(ogCoApp.getData()));
+    //   } },
+    //   {selector: '#bar', offset: 300, callback: function(el) {
+    //     ogCoApp.updateBarChart(revenueData);
+    //   } }
+    // ];
+    // Materialize.scrollFire(options);
 
   };
+
+
+  $( window ).resize(function() {
+      ogCoApp.onDataChange();      
+  });
 
 }(window.ogCoApp = window.ogCoApp || {}));

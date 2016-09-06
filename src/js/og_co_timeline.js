@@ -41,17 +41,12 @@
     .attr("dy", ".15em")
     .attr("transform", "rotate(-65)");
 
-  var myLabel = chartHolder.select("svg").append("g")
-    .attr("transform", "translate(10,10)")
-    .attr("class", "labels")
-    .selectAll("label").data(['Inception decade'])
-    .enter().append("g")
-    .attr("tranform", function(d,i){
-      return "translate(0,"+ i*10 +")";
-    });
-
-  myLabel.append("text")
+  chartHolder.select("svg")
+    .append("g")
+    .append("text")
     .text('Decade of inception')
+    .style("font-size", "1.5em")
+    .style('fill', '#434343')
     .attr("dy", "2em")
     .attr("x", 20)
 

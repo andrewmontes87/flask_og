@@ -5,6 +5,9 @@
 
   // using jquery because d3 doesn't play well with materialize components
   ogCoApp.displayPopup = function(_cData){
+
+
+
     ogCoApp.getDataFromAPI('og_co/'+_cData._id,
       function(error, cData){
         if (error) {

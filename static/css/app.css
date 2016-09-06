@@ -1567,7 +1567,7 @@ to{opacity:0}
 }
 #bar,#map{margin:1em auto;position:relative}
 #chart-holder svg{width:100%;height:100%}
-.title{text-align:center}
+.title{text-align:center;font-weight:700;text-transform:uppercase}
 #bar{height:700px}
 .bar.active{fill:#daa520}
 .bar{fill:#434343}

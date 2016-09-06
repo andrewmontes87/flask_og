@@ -25,6 +25,7 @@
     .attr('d', path);
 
   var radiusScale = d3.scale.sqrt()
+    .domain([1,500])
     .range([ogCoApp.MIN_CENTROID_RADIUS, ogCoApp.MAX_CENTROID_RADIUS]);
 
   var cnameToCountry = {};
@@ -54,6 +55,25 @@
       .datum(borders)
       .attr('class', 'boundary')
       .attr('d', path);
+
+    svg
+    .append("g")
+    .append('circle')
+    .attr("cx", 40)
+    .attr("cy", (height-40)+'px')
+    .attr("class", "centroid")
+    .attr('r', function(d) {
+      var hundred_billion = 100
+       return Math.sqrt(hundred_billion*10);
+    })
+    svg
+    .append("g")
+    .append("text")
+    .text(' = $100 BILLION USD Revenue')
+    .style("font-size", "1.5em")
+    .style('fill', '#434343')
+    .attr("x", 80)
+    .attr("y", (height-35)+'px')
 
     var idToCountry = {};
     countries.forEach(function(c){
@@ -125,16 +145,6 @@
 
 
 
-
-
-    var maxRevenue = d3.max(mapCompanyData.map(function(r) {
-      return r.revenue;
-    }))
-
-
-    // DOMAIN OF VALUE-INDINCATOR SCALE 
-    radiusScale.domain([0, maxRevenue]);
-
     var getCentroid = function(d) {
       var arr = d.coordinate_location.split(",")
       arr[1] = arr[1].trim()
@@ -191,7 +201,7 @@
       .style('opacity', 1)
       .attr('r', function(d) {
         // return radiusScale(+Math.round(d.revenue));
-        return Math.round(d.revenue/10);
+        return Math.sqrt(d.revenue*10);
       });
 
 
