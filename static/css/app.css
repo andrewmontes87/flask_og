@@ -1577,7 +1577,7 @@ to{opacity:0}
 .x.axis path{display:none}
 #y-axis-label{font-size:11px}
 #map-tooltip,#timeline-tooltip{position:absolute;pointer-events:none;color:#eee;font-size:12px;opacity:.8;background:#222;padding:0 20px;left:-999px;text-align:center}
-#map{width:700px;height:350px}
+#map{width:800px;height:400px}
 .graticule{fill:none;stroke:#777;stroke-width:.5px;stroke-opacity:.5}
 .land{fill:#fff}
 .boundary{fill:none;stroke:#000;stroke-width:.5px}
