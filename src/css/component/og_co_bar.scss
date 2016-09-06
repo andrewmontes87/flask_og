@@ -1,14 +1,9 @@
 
 #bar {
-  position: absolute;
-  /*background: azure;*/
-  left: 700px;
-  width: 500px;
-  height: 600px;
-  /*border-left: 2px dashed gray;*/
-  /*border-bottom: 2px dashed gray;*/
-  /*border-top: 2px dashed gray;*/
-  /*border-right: 2px dashed gray;*/
+  position: relative;
+  margin: 1em auto;
+  width: 100%;
+  height: 700px;
 }
 
 .bar.active { fill:goldenrod; }

@@ -44,10 +44,12 @@
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
     // ADD AXES
     svg.append("g")
         .attr("class", "y axis")
-        .attr("transform", "translate("+width+",0)");
+        .attr("transform", "translate("+width+",0)")
+ 
     
     svg.append("g")
         .attr("class", "x axis")
@@ -67,13 +69,8 @@
             .transition().duration(ogCoApp.TRANS_DURATION)
             .call(yAxis)
             .selectAll("text")  
-            // .style("text-anchor", "end")
             .style("text-align", "left")
-            // .attr("dy", "-.8em")
-            .attr("dx", "1em")
-            // .attr("transform", function(d) {
-            //     return "rotate(-65)"; 
-            // });
+            .style("font-size", "10px")
 
         svg.select('.x.axis')
             .transition().duration(ogCoApp.TRANS_DURATION)

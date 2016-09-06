@@ -1,13 +1,8 @@
 #timeline{
-  /*background: azure;*/
-  position:absolute;
-  /*border-top: 2px dashed gray;*/
-  /*border-left: 2px dashed gray;*/
-  /*border-bottom: 2px dashed gray;*/
-  top:350px;
-  left:0px;
+  position: relative;
+  margin: 3em auto 1em auto;
   height:250px;
-  width:700px;
+  width:100%;
 }
 
 .inception { fill: #434343; }

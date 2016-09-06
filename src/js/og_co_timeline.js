@@ -36,7 +36,10 @@
     .call(xAxis)
     .selectAll("text")
     .style("text-anchor", "end")
-    .attr("dx", "1em");
+    // .attr("dx", "1em")
+    .attr("dx", "-.8em")
+    .attr("dy", ".15em")
+    .attr("transform", "rotate(-65)");
 
   var myLabel = chartHolder.select("svg").append("g")
     .attr("transform", "translate(10,10)")

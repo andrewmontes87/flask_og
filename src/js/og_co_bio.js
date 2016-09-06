@@ -58,7 +58,7 @@
             }
 
             $('#side-nav-trigger').sideNav({
-              menuWidth: 400, // Default is 240
+              menuWidth: 300, // Default is 240
               edge: 'right', // Choose the horizontal origin
               closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
             });
