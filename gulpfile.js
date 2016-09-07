@@ -154,8 +154,8 @@ gulp.task('watch', function() {
 // TASKS //
 
 // default task
-gulp.task('default', ['html-staging', 'img-staging', 'scss-staging', 'clean-staging',
-   'scripts-staging', 'data-staging', 'font-staging', 'watch']); // 'webserver',
+gulp.task('default', [ 'img-staging', 'scss-staging', 'clean-staging',
+   'scripts-staging', 'data-staging', 'font-staging', 'watch']); // 'webserver', 'html-staging',
 
 // build task
 // gulp.task('build', ['html-build', 'img-build',  'scss-build', 'clean-build', 'scripts-build']);
