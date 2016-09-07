@@ -1,8 +1,9 @@
 # flask_og
 
-Flask servers and d3 app for oil/gas company visualizer
+Flask server providing d3 app for oil/gas company visualizer
 
-## Run
+
+## Develop
 
 Start the web server
 
