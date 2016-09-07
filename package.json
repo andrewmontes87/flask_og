@@ -1,6 +1,6 @@
 {
   "name": "flask_og",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flask servers and d3 app for oil/gas company visualizer",
   "dependencies": {
     "materialize-css": "^0.97.7",
