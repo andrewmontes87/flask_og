@@ -23,15 +23,9 @@ var appSrcFiles = ['node_modules/jquery/dist/jquery.min.js',
     'src/js/og_co_main.js',
     'node_modules/materialize-css/dist/js/materialize.min.js'];
 
-var appCssFiles = ['node_modules/materialize-css/dist/css/materialize.min.css',
-  'src/css/app.scss'];
+var appCssFiles = ['src/css/app.scss'];
 
 var appFontFiles = ['node_modules/materialize-css/dist/fonts/**/*'];
-
-
-// DEVELOPMENT //
-
-// PREP STAGING
 
 // pipe html + images to build/
 gulp.task('html-staging', function() {
@@ -95,68 +89,14 @@ gulp.task('watch', function() {
   gulp.watch(['src/**/*.js'], ['scripts-staging']);
 });
 
-// // webserver
-// gulp.task('webserver', function() {
-//   return gulp.src('staging/')
-//     .pipe(webserver({
-//       livereload: true,
-//       open: true,
-//       port:5757
-//     }));
-// });
-
-
-// // BUILD //
-
-// // pipe html + images to build/
-// gulp.task('html-build', function() {
-//   return gulp.src(['app/**/*.html', 'staging/**/*.html'])
-//   .pipe(gulp.dest('build/'))
-// });
-
-// gulp.task('img-build', function() {
-//   return gulp.src(['app/img/**/*.png',
-//     'app/img/**/*.jpg',
-//     'app/img/**/*.eot',
-//     'app/img/**/*.svg',
-//     'app/img/**/*.ttf',
-//     'app/img/**/*.woff'])
-//     .pipe(gulp.dest('build/img'))
-// });
-
-
-// // minify css, pipe to build/
-// gulp.task('scss-build', function() {
-//   return gulp.src('app/css/app.scss')
-//     .pipe(sass({ includePaths : ['app/css/'] }))
-//     .pipe(minifyCSS({keepBreaks:false}))
-//     .pipe(gulp.dest('build/css/'))
-// });
-
-// gulp.task('clean-build', function () {
-//   return del([
-//     'build/*.js'
-//   ]);
-// });
-
-// // concat + uglify js, pipe to build/
-// gulp.task('scripts-build', function() {
-//   return gulp.src(appSrcFiles)
-//     .pipe(concat('app.min.js'))
-//     .pipe(uglify())
-//     .pipe(rename({suffix:"." + new Date().getTime(),extname:".js"}))
-//     .pipe(gulp.dest('build/'))
-// });
-
-
-
 
 // TASKS //
 
 // default task
 gulp.task('default', [ 'img-staging', 'scss-staging', 'clean-staging',
-   'scripts-staging', 'data-staging', 'font-staging', 'watch']); // 'webserver', 'html-staging',
+   'scripts-staging', 'data-staging', 'font-staging', 'watch']); 
 
-// build task
-// gulp.task('build', ['html-build', 'img-build',  'scss-build', 'clean-build', 'scripts-build']);
+// default task
+gulp.task('build', [ 'img-staging', 'scss-staging', 'clean-staging',
+   'scripts-staging', 'data-staging', 'font-staging']); 
 

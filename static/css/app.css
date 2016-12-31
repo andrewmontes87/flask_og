@@ -1,0 +1,33 @@
+#bar,#map{margin:1em auto;position:relative}
+#type-select li span,body{color:#434343}
+#bar,#map,#timeline{position:relative}
+#bar,#ogapp-menu .nav-form-li,#timeline{width:100%}
+#chart-holder svg{width:100%;height:100%}
+.title{text-align:center;font-weight:700;text-transform:uppercase}
+#bar{height:700px}
+.bar.active{fill:#daa520}
+.bar{fill:#434343}
+.bar:hover{fill:#000}
+.axis{font:10px sans-serif}
+.axis line,.axis path{fill:none;stroke:#000;shape-rendering:crispEdges}
+.x.axis path{display:none}
+#y-axis-label{font-size:11px}
+#map-tooltip,#timeline-tooltip{position:absolute;pointer-events:none;color:#eee;font-size:12px;opacity:.8;background:#222;padding:0 20px;left:-999px;text-align:center}
+#map{width:950px;height:475px}
+.graticule{fill:none;stroke:#777;stroke-width:.5px;stroke-opacity:.5}
+.land{fill:#fff}
+.boundary{fill:none;stroke:#000;stroke-width:.5px}
+.country{fill:#afc3ba}
+.country.active{fill:#9bafa6}
+.centroid{fill:#434343;fill-opacity:.3}
+.centroid:active{fill:#daa520;fill-opacity:.6}
+#map-tooltip{margin:0}
+#ogapp-menu label{padding-left:1em}
+#ogapp-menu .select-wrapper input.select-dropdown{margin-left:9em}
+#ogapp-menu .caret{top:0}
+#picbox{text-align:right}
+#picbox img{margin:1em 2em 0 0}
+#timeline{margin:3em auto 1em;height:250px}
+.inception{fill:#434343}
+.inception:hover{fill:#000}
+#timeline-tooltip{margin:0}

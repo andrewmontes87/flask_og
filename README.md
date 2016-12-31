@@ -42,3 +42,14 @@ In a new terminal window start the flask server:
 $ python run.py
 ```
 
+
+## Deploy
+
+Build with gulp and deploy to heroku:
+
+```
+$ gulp build
+$ git push heroku master
+```
+
+
